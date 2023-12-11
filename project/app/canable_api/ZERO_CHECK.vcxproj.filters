@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\7ad1a21b8ffdf69642711c9c2d899340\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{FA6A2C73-ADDC-3A9C-A84D-D93DAC6D5854}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

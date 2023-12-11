@@ -1,0 +1,4 @@
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/Release/canframe.obj
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/Release/candle.obj
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/Release/candle_ctrl_req.obj
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/Release/WinCan.obj

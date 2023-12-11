@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C9FBFAB6-4081-3D4D-84B5-C230EAED020D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\canable_eyoubot_complete\project\app\canable_api\inc;D:\canable_eyoubot_complete\project\app\canable_api\candle;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\canable_eyoubot_complete\project\app\canable_api\inc;D:\canable_eyoubot_complete\project\app\canable_api\candle;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\canable_eyoubot_complete\project\app\canable_api\inc;D:\canable_eyoubot_complete\project\app\canable_api\candle;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\canable_eyoubot_complete\project\app\canable_api\inc;D:\canable_eyoubot_complete\project\app\canable_api\candle;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\canable_eyoubot_complete\project\app\canable_api\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/canable_eyoubot_complete/project/app/canable_api/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/canable_eyoubot_complete/project/app/canable_api -BD:/canable_eyoubot_complete/project/app/canable_api --check-stamp-file D:/canable_eyoubot_complete/project/app/canable_api/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/canable_eyoubot_complete/project/app/canable_api/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/canable_eyoubot_complete/project/app/canable_api -BD:/canable_eyoubot_complete/project/app/canable_api --check-stamp-file D:/canable_eyoubot_complete/project/app/canable_api/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/canable_eyoubot_complete/project/app/canable_api/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/canable_eyoubot_complete/project/app/canable_api -BD:/canable_eyoubot_complete/project/app/canable_api --check-stamp-file D:/canable_eyoubot_complete/project/app/canable_api/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/canable_eyoubot_complete/project/app/canable_api/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/canable_eyoubot_complete/project/app/canable_api -BD:/canable_eyoubot_complete/project/app/canable_api --check-stamp-file D:/canable_eyoubot_complete/project/app/canable_api/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.27\Modules\Platform\WindowsPaths.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeCXXCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeRCCompiler.cmake;D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\3.27.1\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\canable_eyoubot_complete\project\app\canable_api\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\ZERO_CHECK.vcxproj">
+      <Project>{26CD1B9B-A14F-327E-9B0C-247793814250}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\EYOUBOTLIB.vcxproj">
+      <Project>{9B72046F-76B2-3C97-9FDA-5C8A8359BDF3}</Project>
+      <Name>EYOUBOTLIB</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\canable.vcxproj">
+      <Project>{B5794FCD-6773-30E9-AD20-AE4F7F724550}</Project>
+      <Name>canable</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\candle.vcxproj">
+      <Project>{BBDCC3EC-3CEA-311B-B634-C8AEF6283275}</Project>
+      <Name>candle</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_baudrate.vcxproj">
+      <Project>{8A39975F-63F9-3F8A-9B61-AB031126EE46}</Project>
+      <Name>eyoubot_motor_baudrate</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_cease.vcxproj">
+      <Project>{B9E3D8D0-D7AE-37C5-BF13-85F0D4464CC6}</Project>
+      <Name>eyoubot_motor_cease</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_current_control.vcxproj">
+      <Project>{092D9A14-F812-38EA-8D21-DE24260D1BF8}</Project>
+      <Name>eyoubot_motor_current_control</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_function.vcxproj">
+      <Project>{87E14C6F-7BCE-3E7D-AFE6-8BCD9A7A829E}</Project>
+      <Name>eyoubot_motor_function</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_get_current.vcxproj">
+      <Project>{3B666C52-55CA-348F-9E2F-B08CB7F75BE6}</Project>
+      <Name>eyoubot_motor_get_current</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_get_position.vcxproj">
+      <Project>{86A16D91-51D1-3DFF-A275-AEB4A6FBD145}</Project>
+      <Name>eyoubot_motor_get_position</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_get_speed.vcxproj">
+      <Project>{E08B0998-1ADE-34AA-9229-7CEA083BD4E3}</Project>
+      <Name>eyoubot_motor_get_speed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_get_temperature.vcxproj">
+      <Project>{1E2BC47E-0FEA-3ADF-8D74-6FD7598BA44D}</Project>
+      <Name>eyoubot_motor_get_temperature</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_get_voltage.vcxproj">
+      <Project>{F32356B6-DB38-3C64-8874-F94B1FF7A86B}</Project>
+      <Name>eyoubot_motor_get_voltage</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_id.vcxproj">
+      <Project>{F5000E25-0A23-3C37-B82B-A65F058751D7}</Project>
+      <Name>eyoubot_motor_id</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_limit_current.vcxproj">
+      <Project>{4A94194A-F310-380E-994F-3F35258A2F37}</Project>
+      <Name>eyoubot_motor_limit_current</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_limit_lower_position.vcxproj">
+      <Project>{93ABADFA-9D9C-3539-AA5E-021F00FBA3DD}</Project>
+      <Name>eyoubot_motor_limit_lower_position</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_limit_speed.vcxproj">
+      <Project>{F2CE7EE6-099C-303B-9699-C7F32B18EBC4}</Project>
+      <Name>eyoubot_motor_limit_speed</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_limit_upper_position.vcxproj">
+      <Project>{01DCFF94-B2ED-31A2-BD3F-D15C8E784DBC}</Project>
+      <Name>eyoubot_motor_limit_upper_position</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_position_control.vcxproj">
+      <Project>{4E255824-6209-3A83-B6D6-0461D5E74D5F}</Project>
+      <Name>eyoubot_motor_position_control</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\eyoubot_motor_speed_control.vcxproj">
+      <Project>{5CCFEBD0-C0D9-31BE-A188-A5B5FA917FC1}</Project>
+      <Name>eyoubot_motor_speed_control</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\sito_motor.vcxproj">
+      <Project>{8CD71CA4-0D1A-351F-97E5-E4F353DBCA9C}</Project>
+      <Name>sito_motor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\sito_motor_return_to_origin.vcxproj">
+      <Project>{172B78D1-224F-334C-B392-A9F622E9A90C}</Project>
+      <Name>sito_motor_return_to_origin</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\canable_eyoubot_complete\project\app\canable_api\sito_motor_set_origin.vcxproj">
+      <Project>{6970C2DC-3ED9-338C-9033-71ED1BAE3E3F}</Project>
+      <Name>sito_motor_set_origin</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/MinSizeRel/canframe.obj
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/MinSizeRel/candle.obj
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/MinSizeRel/candle_ctrl_req.obj
+D:/canable_eyoubot_complete/project/app/canable_api/candle.dir/MinSizeRel/WinCan.obj
